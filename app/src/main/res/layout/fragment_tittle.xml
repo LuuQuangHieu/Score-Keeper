@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:background="@color/court"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".TittleFragment">
+
+        <ImageView
+            android:id="@+id/title_fragment_iv_basketball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/basketball_description"
+            android:src="@drawable/ic_basketball" />
+
+        <EditText
+            android:id="@+id/title_fragment_et_team1_name"
+            style="@style/team_style"
+            android:hint="@string/edit_text_name_hint"
+            android:textColorHint="@color/team1" />
+
+        <Button
+            android:id="@+id/title_fragment_bt_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/ewing"
+            android:fontFamily="@font/squada_one"
+            android:text="@string/button_start_text"
+            android:textSize="36sp"
+            app:cornerRadius="20dp" />
+
+        <EditText
+            android:id="@+id/title_fragment_et_team2_name"
+            style="@style/team_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edit_text_name_hint"
+            android:inputType="textPersonName"
+            android:textColor="@color/team2"
+            android:textColorHint="@color/team2" />
+
+        <ImageView
+            android:id="@+id/title_fragment_iv_basketball_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/basketball_description"
+            android:src="@drawable/ic_basketball" />
+    </LinearLayout>
+</layout>

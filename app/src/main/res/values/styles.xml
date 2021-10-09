@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="team_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/court</item>
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">@font/squada_one</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/team1</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="game_over_team_textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/squada_one</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/team1</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="game_fragment_tv_team_q">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/team1</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="game_fragment_bt_team">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/team1</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:fontFamily">@font/squada_one</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="game_fragment_bt_team_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/team2</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:fontFamily">@font/squada_one</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
